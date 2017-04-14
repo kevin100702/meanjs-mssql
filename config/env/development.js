@@ -5,12 +5,12 @@ var defaultEnvConfig = require('./default');
 module.exports = {
   db: {
     name: 'mean-dev',
-    username: 'root',
-    password: 'root',
+    username: 'drlee',
+    password: 'leecasjamhtkale',
     options: {
-      host: 'localhost',
-      port: 3306,
-      dialect: 'mysql'
+      host: '192.168.0.7',
+      port: 1433,
+      dialect: 'mssql'
     }
   },
   log: {
