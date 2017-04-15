@@ -5,13 +5,13 @@ var defaultEnvConfig = require('./default');
 module.exports = {
   db: {
     name: 'mean-dev',
-    username: 'root',
-    password: 'root',
+    username: 'sa',
+    password: 'Cck4703362',
     options: {
-      host: 'localhost',
-      port: 3306,
-      dialect: 'mysql'
-    }
+      host: '192.168.193.30',
+      port: 1433,
+      dialect: 'mssql'
+    } 
   },
   log: {
     // logging with Morgan - https://github.com/expressjs/morgan
